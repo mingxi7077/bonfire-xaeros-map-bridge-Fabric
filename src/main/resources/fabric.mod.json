@@ -5,10 +5,14 @@
 	"name": "Bonfire Xaero's Map Bridge",
 	"description": "Bonfire special Fabric companion that forces Xaero multiplayer saves into one shared map root, ignoring server domain splits.",
 	"authors": [
-		"Codex for Bonfire"
+		"Bonfire"
 	],
-	"contact": {},
-	"license": "All Rights Reserved",
+	"contact": {
+		"homepage": "https://github.com/mingxi7077/bonfire-xaeros-map-bridge-Fabric",
+		"sources": "https://github.com/mingxi7077/bonfire-xaeros-map-bridge-Fabric",
+		"issues": "https://github.com/mingxi7077/bonfire-xaeros-map-bridge-Fabric/issues"
+	},
+	"license": "GPL-3.0",
 	"environment": "client",
 	"entrypoints": {
 		"client": [
