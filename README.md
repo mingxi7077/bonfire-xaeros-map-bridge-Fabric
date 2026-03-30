@@ -8,6 +8,8 @@
 
 Bonfire Xaero's Map Bridge is a Fabric client companion that unifies Xaero multiplayer map storage and migrates old `Multiplayer_*` data into one stable Bonfire directory.
 
+> Non-commercial source-available. Commercial use requires prior written permission via `mingxi7707@qq.com`.
+
 ## What It Changes
 
 - Stops Xaero's Minimap from splitting multiplayer data by server address.
