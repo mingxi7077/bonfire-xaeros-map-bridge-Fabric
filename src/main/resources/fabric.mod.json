@@ -1,0 +1,25 @@
+{
+	"schemaVersion": 1,
+	"id": "bonfire_xaeros_map_bridge",
+	"version": "${version}",
+	"name": "Bonfire Xaero's Map Bridge",
+	"description": "Bonfire special Fabric companion that forces Xaero multiplayer saves into one shared map root, ignoring server domain splits.",
+	"authors": [
+		"Codex for Bonfire"
+	],
+	"contact": {},
+	"license": "All Rights Reserved",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.bonfiremc.xaerosbridge.BonfireXaerosMapBridgeClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.18.3",
+		"minecraft": "~1.21.8",
+		"java": ">=21",
+		"xaerominimap": "*",
+		"xaeroworldmap": "*"
+	}
+}
