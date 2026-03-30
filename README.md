@@ -1,6 +1,7 @@
 # Bonfire Xaero's Map Bridge (Fabric)
 
-![License](https://img.shields.io/badge/license-GPL--3.0-blue)
+![License](https://img.shields.io/badge/license-BNSL--1.0-red)
+![Commercial Use](https://img.shields.io/badge/commercial-use%20by%20written%20permission%20only-critical)
 ![Platform](https://img.shields.io/badge/platform-Fabric%201.21.8-brightgreen)
 ![Side](https://img.shields.io/badge/side-client-blueviolet)
 ![Java](https://img.shields.io/badge/java-21-orange)
@@ -34,4 +35,6 @@ Bonfire Xaero's Map Bridge is a Fabric client companion that unifies Xaero multi
 
 ## License
 
-GPL-3.0
+Bonfire Non-Commercial Source License 1.0
+
+Commercial use is prohibited unless you first obtain written permission from `mingxi7707@qq.com`.
