@@ -1,22 +1,24 @@
 # Bonfire Xaero's Map Bridge (Fabric)
 
-![License](https://img.shields.io/badge/license-BNSL--1.0-red)
-![Commercial Use](https://img.shields.io/badge/commercial-use%20by%20written%20permission%20only-critical)
-![Platform](https://img.shields.io/badge/platform-Fabric%201.21.8-brightgreen)
-![Side](https://img.shields.io/badge/side-client-blueviolet)
-![Java](https://img.shields.io/badge/java-21-orange)
+[English](#english) | [简体中文](#简体中文)
 
-Bonfire Xaero's Map Bridge is a Fabric client companion that unifies Xaero multiplayer map storage and migrates old `Multiplayer_*` data into one stable Bonfire directory.
+Bonfire Xaero's Map Bridge is a Fabric client companion for unified Xaero multiplayer storage.
 
-> Non-commercial source-available. Commercial use requires prior written permission via `mingxi7707@qq.com`.
+Bonfire Xaero's Map Bridge 是一个用于统一 Xaero 多人地图存档的 Fabric 客户端附属模组。
 
-## What It Changes
+---
+
+## English
+
+Bonfire Xaero's Map Bridge is a Fabric client companion that unifies Xaero multiplayer map storage and migrates older `Multiplayer_*` data into one stable Bonfire directory.
+
+### What It Changes
 
 - Stops Xaero's Minimap from splitting multiplayer data by server address.
 - Stops Xaero's World Map from splitting multiplayer data by server address.
-- Migrates older multiplayer map folders into a single shared target directory.
+- Migrates old multiplayer map folders into one shared Bonfire target directory.
 
-## Compatibility
+### Compatibility
 
 - Minecraft Java `1.21.8`
 - Fabric Loader `0.18.3+`
@@ -24,19 +26,56 @@ Bonfire Xaero's Map Bridge is a Fabric client companion that unifies Xaero multi
 - Xaero's World Map `1.40.6`
 - Java `21`
 
-## Build
+### Repository Layout
+
+- `src/`: mod source code
+- `build.gradle`: Gradle build definition
+- `build/`: generated output, excluded from release tracking
+
+### Build
 
 ```powershell
 .\gradlew.bat build
 ```
 
-## Repository Scope
+### License
 
-- Source only.
-- Generated jars, remapped outputs, and local run data are excluded from Git.
+This repository currently uses the `Bonfire Non-Commercial Source License 1.0`.
+See [LICENSE](LICENSE) for the exact terms.
 
-## License
+---
 
-Bonfire Non-Commercial Source License 1.0
+## 简体中文
 
-Commercial use is prohibited unless you first obtain written permission from `mingxi7707@qq.com`.
+Bonfire Xaero's Map Bridge 是一个 Fabric 客户端附属模组，用来统一 Xaero 多人地图数据的目录结构，并把旧的 `Multiplayer_*` 存档迁移到稳定的 Bonfire 目录下。
+
+### 它修改了什么
+
+- 阻止 Xaero's Minimap 按服务器地址拆分多人地图数据。
+- 阻止 Xaero's World Map 按服务器地址拆分多人地图数据。
+- 将旧的多人地图目录迁移到统一的 Bonfire 目标路径。
+
+### 兼容性
+
+- Minecraft Java `1.21.8`
+- Fabric Loader `0.18.3+`
+- Xaero's Minimap `25.3.5`
+- Xaero's World Map `1.40.6`
+- Java `21`
+
+### 仓库结构
+
+- `src/`：模组源码
+- `build.gradle`：Gradle 构建定义
+- `build/`：生成输出，不纳入发布源码
+
+### 构建方式
+
+```powershell
+.\gradlew.bat build
+```
+
+### 授权
+
+本仓库当前采用 `Bonfire Non-Commercial Source License 1.0`。
+具体条款见 [LICENSE](LICENSE)。
